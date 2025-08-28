@@ -1,4 +1,3 @@
-Unconditional love, [28/08/2025 17:38]
 # 📖 Responsive Webpage Project
 
 ## Project Overview
@@ -17,8 +16,6 @@ It demonstrates the combined use of CSS Grid and Flexbox for layout design, ensu
 ---
 
 ## File Structure
-
-Unconditional love, [28/08/2025 17:39]
 ---
 
 ## Technologies Used
