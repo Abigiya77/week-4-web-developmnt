@@ -15,9 +15,6 @@ It demonstrates the combined use of CSS Grid and Flexbox for layout design, ensu
 
 ---
 
-## File Structure
----
-
 ## Technologies Used
 - HTML5 → for semantic structure  
 - CSS3 → for styling and responsive layouts  
