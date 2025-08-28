@@ -1,0 +1,122 @@
+/* ===================== Global Styles ===================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ===================== Header & Navigation (Flexbox) ===================== */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+}
+
+.header h1 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.nav ul {
+    display: flex; /* Flexbox for horizontal navigation */
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+}
+
+/* ===================== Main Layout (Grid) ===================== */
+.main-grid {
+    display: grid; /* CSS Grid for main layout */
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* ===================== Content Section ===================== */
+.content {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Cards Layout using Flexbox */
+.cards {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 200px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ===================== Sidebar ===================== */
+.sidebar {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* ===================== Footer ===================== */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+/* ===================== Responsive Media Queries ===================== */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .main-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .nav ul {
+        justify-content: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: 1fr; /* Stack content and sidebar */
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .cards {
+        flex-direction: column; /* Stack cards vertically */
+    }
+}
