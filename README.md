@@ -1,44 +1,52 @@
-Responsive Webpage Assignment
-📖 Overview
-This project is a responsive webpage built using HTML5 and CSS3 only (no frameworks).
-It demonstrates the use of CSS Grid and Flexbox for layout design, along with media queries for responsiveness across desktop, tablet, and mobile devices.
-The webpage contains the following sections:
-Header (with title and navigation bar)
-Navigation Bar (built using Flexbox for alignment)
-Content Area (main section with text and cards)
-Sidebar (additional links and info)
-Footer (site information)
-🛠️ Technologies Used
-HTML5 – Page structure
-CSS3 – Styling and responsiveness 
-Flexbox – Used for navigation bar and cards layout
-Grid – Used for the main page layout (content + sidebar)
-Media Queries – Used for tablet and mobile responsiveness
-📂 Project Structure
-📦 responsive-webpage
-┣ 📜 index.html → Main HTML file
-┣ 📜 style.css → Stylesheet with Grid, Flexbox, and media queries
-┗ 📜 README.md → Project documentation
-🎨 Layout Details
-Desktop View (≥ 992px)
-Grid layout with two columns (content + sidebar)
-Navigation displayed horizontally with Flexbox
-Cards displayed in a row with Flexbox
-Tablet View (768px – 991px)
-Grid layout adjusts column proportions (2:1)
-Navigation remains centered
-Mobile View (≤ 767px)
-Grid collapses into a single column (stacked layout)
-Navigation switches to vertical (Flexbox column)
-Cards stacked vertically for readability
-🚀 How to Run
-Clone or download the project folder.
-Open index.html in your browser.
-Resize the browser window to test responsiveness.
-✨ Key Features
-Clean HTML5 structure with semantic tags
-Modern CSS layout techniques (Grid + Flexbox)
-Fully responsive design (desktop, tablet, mobile)
-Readable, maintainable CSS with helpful comments
-📌 Author
-Created by Abigiya Diribsa as part of a responsive webpage assignment.
+Unconditional love, [28/08/2025 17:38]
+# 📖 Responsive Webpage Project
+
+## Project Overview
+This project is a responsive webpage built using HTML5 and CSS3 without any external frameworks.  
+It demonstrates the combined use of CSS Grid and Flexbox for layout design, ensuring a visually appealing and functional experience across desktop, tablet, and mobile devices.  
+
+---
+
+## Features
+- Responsive Design: Works seamlessly on desktop, tablet, and mobile.  
+- CSS Grid: Used for the main page layout (content, sidebar, footer).  
+- Flexbox: Used for the navigation bar and card alignment.  
+- Media Queries: Provide breakpoints for smooth adjustments across different screen sizes.  
+- Clean Code: Well-organized CSS with comments for clarity.  
+
+---
+
+## File Structure
+
+Unconditional love, [28/08/2025 17:39]
+---
+
+## Technologies Used
+- HTML5 → for semantic structure  
+- CSS3 → for styling and responsive layouts  
+- CSS Grid → for main content and sidebar layout  
+- Flexbox → for navigation and card alignment  
+
+---
+
+## How to Run
+1. Clone or download this repository.  
+2. Open the index.html file in your browser.  
+3. Resize the browser window to see responsiveness in action.  
+
+---
+
+## Responsive Design
+- Desktop View: Grid layout with header, sidebar, content, and footer.  
+- Tablet View: Sidebar moves below the content area.  
+- Mobile View: Stacked layout for easy readability on small screens.  
+
+---
+
+## Learning Outcomes
+- Practical experience with CSS Grid and Flexbox.  
+- Hands-on use of media queries for responsiveness.  
+- Structuring a multi-section webpage with semantic HTML.  
+
+---
+✨ Created with care by Abigiya Diribsa
